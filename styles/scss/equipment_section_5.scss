@@ -1,0 +1,79 @@
+.section-5-wrapper {
+  padding: 72px 56px;
+}
+
+.section-5-title {
+  font-family: $font-family-small-headings;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.section-5-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: center;
+}
+
+.equipment-text-container {
+  flex: 1 1 55%;
+  max-width: 55%;
+}
+
+.equipment-pic-container {
+  flex: 1 1 40%;
+  max-width: 40%;
+}
+
+.equipment-pic {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.equipment-text-container h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.equipment-text-container p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+// Медиа-запрос для экранов тэблетов шириной в диапазоне 720-1170px
+@media screen and (min-width: 720px) and (max-width: 1170px) {
+  .section-5-content {
+    flex-direction: column;
+  }
+  .section-5-title {
+    text-align: center;
+  }
+  .equipment-text-container,
+  .equipment-pic-container {
+    max-width: 80%;
+    flex: 1 1 60%;
+  }
+}
+
+// Медиа-запрос для экранов мобильных телефонов шириной 430px и меньше
+@media (max-width: 430px) {
+  .section-5-content {
+    flex-direction: column;
+  }
+  .section-5-title {
+    text-align: center;
+  }
+  .equipment-text-container,
+  .equipment-pic-container {
+    max-width: 80%;
+    flex: 1 1 80%;
+  }
+  .equipment-text-container p {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+}

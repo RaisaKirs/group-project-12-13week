@@ -1,0 +1,39 @@
+.price-wrapper {
+  background-color: #fff;
+  padding: 72px 56px;
+  width: 100%;
+}
+
+.price-title {
+  font-size: 50px;
+  margin-bottom: 24px;
+  color: #235b50;
+  font-weight: 400;
+}
+
+.price-text-container {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.price_wrap_button {
+  text-decoration: none;
+  background-color: #0db89f;
+  border: none;
+  border-radius: 10px;
+  width: 268px;
+  height: 78px;
+  margin-top: 20px;
+}
+
+.price_wrap_button:hover {
+  opacity: 0.8;
+  transition: all 0.3s;
+}
+
+.price_text {
+  font-weight: 200;
+  font-size: 24px;
+  color: #fff;
+  padding-left: 5px;
+}

@@ -1,0 +1,52 @@
+.section-3-wrapper {
+  padding: 72px 56px;
+}
+.section-3-title {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.section-3-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: center;
+}
+.services-text-container {
+  flex: 1 1 80%;
+  max-width: 80%;
+}
+.services-text-container h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.services-text-container p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+// Медиа-запрос для экранов шириной в диапазоне 720-1170px
+@media screen and (min-width: 720px) and (max-width: 1170px) {
+  .section-3-content {
+    flex-direction: column;
+  }
+  .section-3-title {
+    text-align: center;
+  }
+}
+
+// Медиа-запрос для экранов мобильных телефонов шириной 430px и меньше
+@media (max-width: 430px) {
+  .section-3-content {
+    flex-direction: column;
+  }
+  .section-3-title {
+    text-align: center;
+  }
+  .services-text-container p {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+}

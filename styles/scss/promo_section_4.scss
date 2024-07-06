@@ -1,0 +1,35 @@
+.section-4-title {
+  font-family: $font-family-small-headings;
+  font-size: 50px;
+}
+
+.section-4-wrapper {
+  max-width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+  scroll-snap-type: x mandatory;
+  padding: 16px;
+}
+
+.section-4__content {
+  display: flex;
+  gap: 24px;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.actions-img-wrapper {
+  height: 500px;
+  min-width: 400px;
+  width: 400px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: $main-color-white;
+  font-size: $font-size-primary-large;
+}
+
+.actions-img-1 {
+  background: url("../../assets/interior_img/IMG_9753.jpg") no-repeat;
+  background-size: cover;
+}

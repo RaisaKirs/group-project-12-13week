@@ -1,0 +1,37 @@
+.header-bg {
+  background: url("../../assets/bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.header-bg-filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #660d414b;
+}
+
+.header-bg-title {
+  color: $main-color-white;
+}
+
+.bg-text {
+  z-index: 10;
+  text-align: center;
+}
+
+.bg-btn {
+  z-index: 10;
+}
+
+.bg-btn:hover {
+  cursor: pointer;
+}

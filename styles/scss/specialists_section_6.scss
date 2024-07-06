@@ -1,0 +1,72 @@
+.section-6-wrapper {
+  padding: 72px 56px;
+}
+
+.section-6-title {
+  font-family: $font-family-small-headings;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.section-6-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.specialists-text-container {
+  flex: 1 1 100%;
+  text-align: left;
+}
+
+.specialists-pic-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.specialists-pic {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.specialists-text-container h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.specialists-text-container p {
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+// Медиа-запрос для экранов тэблетов шириной в диапазоне 720-1170px
+@media screen and (min-width: 720px) and (max-width: 1170px) {
+  .section-6-title {
+    text-align: center;
+  }
+  .section-6-content {
+    text-align: center;
+  }
+  .specialists-text-container p {
+    text-align: center;
+  }
+}
+// Медиа-запрос для экранов мобильных телефонов шириной 430px и меньше
+@media (max-width: 430px) {
+  .section-6-title {
+    text-align: center;
+  }
+  .section-6-content {
+    text-align: center;
+  }
+  .specialists-text-container p {
+    text-align: center;
+  }
+}
